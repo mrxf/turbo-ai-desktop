@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import DataSets from "./Datasets";
+import DatasetsPage from "./Datasets";
 import Prompts from "./Prompts";
 import DashLayout from "../Components/Layout/DashLayout";
 import KnowledgeBase from "./KnowledgeBase";
@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/dash/datasets",
-        Component: DataSets,
+        Component: DatasetsPage,
       },
       {
         path: "/dash/prompts",
